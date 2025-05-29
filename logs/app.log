@@ -1,0 +1,172 @@
+2025-05-24 20:22:08,122 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-24 20:22:08,123 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-24 20:22:08,124 [INFO]  * Restarting with stat
+2025-05-24 20:22:08,461 [WARNING]  * Debugger is active!
+2025-05-24 20:22:08,465 [INFO]  * Debugger PIN: 145-105-847
+2025-05-24 20:22:12,707 [INFO] Pagina inicial acessada.
+2025-05-24 20:22:12,780 [INFO] 127.0.0.1 - - [24/May/2025 20:22:12] "GET / HTTP/1.1" 200 -
+2025-05-24 20:22:12,807 [INFO] Arquivo estático acessado: style.css
+2025-05-24 20:22:12,809 [INFO] 127.0.0.1 - - [24/May/2025 20:22:12] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-05-24 20:22:12,810 [INFO] Arquivo estático acessado: script.js
+2025-05-24 20:22:12,812 [INFO] 127.0.0.1 - - [24/May/2025 20:22:12] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-05-24 20:22:45,884 [INFO] Comentário salvo com sucesso: dados\Ruan.json
+2025-05-24 20:22:45,884 [INFO] Mensagem processada com sucesso para Ruan
+2025-05-24 20:22:45,885 [INFO] 127.0.0.1 - - [24/May/2025 20:22:45] "POST /mensagem HTTP/1.1" 200 -
+2025-05-24 20:23:02,297 [INFO] Comentário salvo com sucesso: dados\Ribamar.json
+2025-05-24 20:23:02,298 [INFO] Mensagem processada com sucesso para Ribamar
+2025-05-24 20:23:02,299 [INFO] 127.0.0.1 - - [24/May/2025 20:23:02] "POST /mensagem HTTP/1.1" 200 -
+2025-05-24 20:42:36,721 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-24 20:42:36,721 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-24 20:42:36,723 [INFO]  * Restarting with stat
+2025-05-24 20:42:37,109 [WARNING]  * Debugger is active!
+2025-05-24 20:42:37,113 [INFO]  * Debugger PIN: 145-105-847
+2025-05-24 20:42:42,296 [INFO] Pagina inicial acessada.
+2025-05-24 20:42:42,377 [INFO] 127.0.0.1 - - [24/May/2025 20:42:42] "GET / HTTP/1.1" 200 -
+2025-05-24 20:42:42,405 [INFO] Arquivo estático acessado: css/style.css
+2025-05-24 20:42:42,407 [INFO] 127.0.0.1 - - [24/May/2025 20:42:42] "GET /css/style.css HTTP/1.1" 200 -
+2025-05-24 20:42:42,408 [INFO] Arquivo estático acessado: js/script.js
+2025-05-24 20:42:42,409 [INFO] 127.0.0.1 - - [24/May/2025 20:42:42] "GET /js/script.js HTTP/1.1" 200 -
+2025-05-24 20:42:42,443 [INFO] Arquivo estático acessado: favicon.ico
+2025-05-24 20:42:42,443 [INFO] 127.0.0.1 - - [24/May/2025 20:42:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-24 20:48:49,773 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-24 20:48:49,775 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-24 20:48:49,777 [INFO]  * Restarting with stat
+2025-05-24 20:48:50,174 [WARNING]  * Debugger is active!
+2025-05-24 20:48:50,178 [INFO]  * Debugger PIN: 145-105-847
+2025-05-24 20:49:00,292 [INFO] Pagina inicial acessada.
+2025-05-24 20:49:00,369 [INFO] 127.0.0.1 - - [24/May/2025 20:49:00] "GET / HTTP/1.1" 200 -
+2025-05-24 20:49:00,402 [INFO] Arquivo estático acessado: css/style.css
+2025-05-24 20:49:00,404 [INFO] Arquivo estático acessado: js/script.js
+2025-05-24 20:49:00,405 [INFO] 127.0.0.1 - - [24/May/2025 20:49:00] "[36mGET /css/style.css HTTP/1.1[0m" 304 -
+2025-05-24 20:49:00,407 [INFO] 127.0.0.1 - - [24/May/2025 20:49:00] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-05-24 20:49:23,841 [INFO] Comentário salvo com sucesso: dados\Ruan.json
+2025-05-24 20:49:23,843 [INFO] Mensagem processada com sucesso para Ruan
+2025-05-24 20:49:23,844 [INFO] 127.0.0.1 - - [24/May/2025 20:49:23] "POST /mensagem HTTP/1.1" 200 -
+2025-05-25 16:58:28,231 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-25 16:58:28,231 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-25 16:58:28,234 [INFO]  * Restarting with stat
+2025-05-25 16:58:28,563 [WARNING]  * Debugger is active!
+2025-05-25 16:58:28,572 [INFO]  * Debugger PIN: 145-105-847
+2025-05-25 16:58:32,251 [INFO] Pagina inicial acessada.
+2025-05-25 16:58:32,324 [INFO] 127.0.0.1 - - [25/May/2025 16:58:32] "GET / HTTP/1.1" 200 -
+2025-05-25 16:58:32,351 [INFO] Arquivo estático acessado: css/style.css
+2025-05-25 16:58:32,353 [INFO] Arquivo estático acessado: img/logo.svg
+2025-05-25 16:58:32,354 [INFO] 127.0.0.1 - - [25/May/2025 16:58:32] "GET /css/style.css HTTP/1.1" 200 -
+2025-05-25 16:58:32,356 [INFO] Arquivo estático acessado: js/script.js
+2025-05-25 16:58:32,357 [INFO] 127.0.0.1 - - [25/May/2025 16:58:32] "GET /img/logo.svg HTTP/1.1" 200 -
+2025-05-25 16:58:32,384 [INFO] 127.0.0.1 - - [25/May/2025 16:58:32] "GET /js/script.js HTTP/1.1" 200 -
+2025-05-25 16:58:32,440 [INFO] Arquivo estático acessado: favicon.ico
+2025-05-25 16:58:32,441 [INFO] 127.0.0.1 - - [25/May/2025 16:58:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-25 16:58:43,416 [INFO] Comentário salvo com sucesso: dados\Ruan.json
+2025-05-25 16:58:43,416 [INFO] Mensagem processada com sucesso para Ruan
+2025-05-25 16:58:43,417 [INFO] 127.0.0.1 - - [25/May/2025 16:58:43] "POST /mensagem HTTP/1.1" 200 -
+2025-05-25 16:59:14,400 [INFO] Comentário salvo com sucesso: dados\Izaaaaaaaaa.json
+2025-05-25 16:59:14,401 [INFO] Mensagem processada com sucesso para Izaaaaaaaaa
+2025-05-25 16:59:14,401 [INFO] 127.0.0.1 - - [25/May/2025 16:59:14] "POST /mensagem HTTP/1.1" 200 -
+2025-05-25 19:23:33,163 [INFO] Palavrões carregados com sucesso.
+2025-05-25 19:23:33,163 [ERROR] Erro ao carregar arquivo de palavrões: name 'palavroes' is not defined
+2025-05-25 19:23:33,222 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-25 19:23:33,223 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-25 19:23:33,225 [INFO]  * Restarting with stat
+2025-05-25 19:23:33,599 [INFO] Palavrões carregados com sucesso.
+2025-05-25 19:23:33,600 [ERROR] Erro ao carregar arquivo de palavrões: name 'palavroes' is not defined
+2025-05-25 19:23:33,632 [WARNING]  * Debugger is active!
+2025-05-25 19:23:33,637 [INFO]  * Debugger PIN: 145-105-847
+2025-05-25 19:26:10,222 [INFO] Palavrões carregados com sucesso.
+2025-05-25 19:26:10,274 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-25 19:26:10,275 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-25 19:26:10,277 [INFO]  * Restarting with stat
+2025-05-25 19:26:10,659 [INFO] Palavrões carregados com sucesso.
+2025-05-25 19:26:10,695 [WARNING]  * Debugger is active!
+2025-05-25 19:26:10,700 [INFO]  * Debugger PIN: 145-105-847
+2025-05-25 19:26:33,455 [INFO] Palavrões carregados com sucesso.
+2025-05-25 19:26:33,511 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-25 19:26:33,512 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-25 19:26:33,514 [INFO]  * Restarting with stat
+2025-05-25 19:26:33,883 [INFO] Palavrões carregados com sucesso.
+2025-05-25 19:26:33,912 [WARNING]  * Debugger is active!
+2025-05-25 19:26:33,918 [INFO]  * Debugger PIN: 145-105-847
+2025-05-25 19:26:37,209 [INFO] Pagina inicial acessada.
+2025-05-25 19:26:37,292 [INFO] 127.0.0.1 - - [25/May/2025 19:26:37] "GET / HTTP/1.1" 200 -
+2025-05-25 19:26:37,314 [INFO] Arquivo estático acessado: css/style.css
+2025-05-25 19:26:37,317 [INFO] Arquivo estático acessado: img/logo.svg
+2025-05-25 19:26:37,319 [INFO] Arquivo estático acessado: js/script.js
+2025-05-25 19:26:37,320 [INFO] 127.0.0.1 - - [25/May/2025 19:26:37] "GET /css/style.css HTTP/1.1" 200 -
+2025-05-25 19:26:37,322 [INFO] 127.0.0.1 - - [25/May/2025 19:26:37] "[36mGET /img/logo.svg HTTP/1.1[0m" 304 -
+2025-05-25 19:26:37,323 [INFO] 127.0.0.1 - - [25/May/2025 19:26:37] "GET /js/script.js HTTP/1.1" 200 -
+2025-05-25 19:27:15,383 [INFO] Comentário salvo com sucesso: dados\Thiago_20250525_192715.json
+2025-05-25 19:27:15,383 [INFO] Mensagem processada com sucesso para Thiago
+2025-05-25 19:27:15,385 [INFO] 127.0.0.1 - - [25/May/2025 19:27:15] "POST /mensagem HTTP/1.1" 200 -
+2025-05-25 19:27:51,889 [INFO] Comentário salvo com sucesso: dados\Izaaaadora_20250525_192751.json
+2025-05-25 19:27:51,889 [INFO] Mensagem processada com sucesso para Izaaaadora
+2025-05-25 19:27:51,891 [INFO] 127.0.0.1 - - [25/May/2025 19:27:51] "POST /mensagem HTTP/1.1" 200 -
+2025-05-25 19:44:19,259 [INFO] Palavrões carregados com sucesso.
+2025-05-25 19:44:19,320 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-25 19:44:19,320 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-25 19:44:19,322 [INFO]  * Restarting with stat
+2025-05-25 19:44:19,688 [INFO] Palavrões carregados com sucesso.
+2025-05-25 19:44:19,720 [WARNING]  * Debugger is active!
+2025-05-25 19:44:19,725 [INFO]  * Debugger PIN: 145-105-847
+2025-05-25 19:44:24,933 [INFO] Pagina inicial acessada.
+2025-05-25 19:44:25,013 [INFO] 127.0.0.1 - - [25/May/2025 19:44:25] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-25 19:44:25,044 [INFO] Arquivo estático acessado: css/style.css
+2025-05-25 19:44:25,046 [INFO] Arquivo estático acessado: img/logo.svg
+2025-05-25 19:44:25,051 [INFO] Arquivo estático acessado: js/script.js
+2025-05-25 19:44:25,053 [INFO] 127.0.0.1 - - [25/May/2025 19:44:25] "[36mGET /css/style.css HTTP/1.1[0m" 304 -
+2025-05-25 19:44:25,054 [INFO] 127.0.0.1 - - [25/May/2025 19:44:25] "[36mGET /img/logo.svg HTTP/1.1[0m" 304 -
+2025-05-25 19:44:25,087 [INFO] 127.0.0.1 - - [25/May/2025 19:44:25] "GET /js/script.js HTTP/1.1" 200 -
+2025-05-25 19:44:39,062 [INFO] Pagina inicial acessada.
+2025-05-25 19:44:39,063 [INFO] 127.0.0.1 - - [25/May/2025 19:44:39] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-25 19:44:39,091 [INFO] Arquivo estático acessado: css/style.css
+2025-05-25 19:44:39,092 [INFO] 127.0.0.1 - - [25/May/2025 19:44:39] "[36mGET /css/style.css HTTP/1.1[0m" 304 -
+2025-05-25 19:44:39,093 [INFO] Arquivo estático acessado: img/logo.svg
+2025-05-25 19:44:39,096 [INFO] Arquivo estático acessado: js/script.js
+2025-05-25 19:44:39,097 [INFO] 127.0.0.1 - - [25/May/2025 19:44:39] "[36mGET /img/logo.svg HTTP/1.1[0m" 304 -
+2025-05-25 19:44:39,099 [INFO] 127.0.0.1 - - [25/May/2025 19:44:39] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-05-25 19:45:31,778 [INFO] Comentário salvo com sucesso: dados\Thiago_20250525_194531.json
+2025-05-25 19:45:31,778 [INFO] Mensagem processada com sucesso para Thiago
+2025-05-25 19:45:31,779 [INFO] 127.0.0.1 - - [25/May/2025 19:45:31] "POST /mensagem HTTP/1.1" 200 -
+2025-05-25 19:45:54,391 [INFO] Comentário salvo com sucesso: dados\Izaa_20250525_194554.json
+2025-05-25 19:45:54,392 [INFO] Mensagem processada com sucesso para Izaa
+2025-05-25 19:45:54,392 [INFO] 127.0.0.1 - - [25/May/2025 19:45:54] "POST /mensagem HTTP/1.1" 200 -
+2025-05-28 11:19:33,749 [INFO] Palavrões carregados com sucesso.
+2025-05-28 11:19:35,444 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 11:19:35,444 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-28 11:19:35,468 [INFO]  * Restarting with watchdog (windowsapi)
+2025-05-28 11:19:35,983 [INFO] Palavrões carregados com sucesso.
+2025-05-28 11:19:36,006 [WARNING]  * Debugger is active!
+2025-05-28 11:19:36,012 [INFO]  * Debugger PIN: 597-966-657
+2025-05-28 11:19:40,644 [INFO] Pagina inicial acessada.
+2025-05-28 11:19:40,692 [INFO] 127.0.0.1 - - [28/May/2025 11:19:40] "GET / HTTP/1.1" 200 -
+2025-05-28 11:19:40,710 [INFO] Arquivo estático acessado: css/style.css
+2025-05-28 11:19:40,711 [INFO] Arquivo estático acessado: img/logo.svg
+2025-05-28 11:19:40,713 [INFO] Arquivo estático acessado: js/script.js
+2025-05-28 11:19:40,734 [INFO] 127.0.0.1 - - [28/May/2025 11:19:40] "GET /css/style.css HTTP/1.1" 200 -
+2025-05-28 11:19:40,742 [INFO] 127.0.0.1 - - [28/May/2025 11:19:40] "GET /img/logo.svg HTTP/1.1" 200 -
+2025-05-28 11:19:40,753 [INFO] 127.0.0.1 - - [28/May/2025 11:19:40] "GET /js/script.js HTTP/1.1" 200 -
+2025-05-28 11:19:40,808 [INFO] Arquivo estático acessado: favicon.ico
+2025-05-28 11:19:40,809 [INFO] 127.0.0.1 - - [28/May/2025 11:19:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-28 11:20:08,872 [INFO]  * Detected change in 'C:\\Users\\ruanh\\anaconda3\\Lib\\site-packages\\watchdog\\observers\\api.py', reloading
+2025-05-28 11:20:08,874 [INFO]  * Detected change in 'C:\\Users\\ruanh\\anaconda3\\pkgs\\watchdog-4.0.1-py312haa95532_0\\Lib\\site-packages\\watchdog\\observers\\api.py', reloading
+2025-05-28 11:20:08,886 [INFO]  * Detected change in 'C:\\Users\\ruanh\\anaconda3\\pkgs\\libgrpc-1.62.2-hf25190f_0\\info\\test\\examples\\python\\observability\\helloworld_pb2.py', reloading
+2025-05-28 11:20:09,022 [INFO]  * Detected change in 'C:\\Users\\ruanh\\anaconda3\\pkgs\\watchdog-4.0.1-py312haa95532_0\\Lib\\site-packages\\watchdog\\observers\\fsevents.py', reloading
+2025-05-28 11:20:09,023 [INFO]  * Detected change in 'C:\\Users\\ruanh\\anaconda3\\Lib\\site-packages\\watchdog\\observers\\fsevents.py', reloading
+2025-05-28 11:20:09,195 [INFO]  * Restarting with watchdog (windowsapi)
+2025-05-28 11:20:09,850 [INFO] Palavrões carregados com sucesso.
+2025-05-28 11:20:09,880 [WARNING]  * Debugger is active!
+2025-05-28 11:20:09,889 [INFO]  * Debugger PIN: 597-966-657
+2025-05-28 11:24:15,111 [INFO] Comentário salvo com sucesso: dados\Ruan_20250528_112415.json
+2025-05-28 11:24:15,111 [INFO] Mensagem processada com sucesso para Ruan
+2025-05-28 11:24:15,112 [INFO] 127.0.0.1 - - [28/May/2025 11:24:15] "POST /mensagem HTTP/1.1" 200 -
+2025-05-28 11:24:27,568 [INFO] Comentário salvo com sucesso: dados\Lucas_20250528_112427.json
+2025-05-28 11:24:27,569 [INFO] Mensagem processada com sucesso para Lucas
+2025-05-28 11:24:27,570 [INFO] 127.0.0.1 - - [28/May/2025 11:24:27] "POST /mensagem HTTP/1.1" 200 -

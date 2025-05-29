@@ -1,0 +1,165 @@
+/* === RESET === */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* === DIVISÓRIA PRETA === */
+.top-bar {
+  background-color: #282424;
+  height: 35px;
+  width: 100%;
+}
+
+/* === NAVBAR === */
+nav.navbar {
+  background-color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* Sombra leve abaixo */
+}
+
+nav .left {
+  color: #000;
+  font-weight: bold;
+}
+
+.left a{
+  text-decoration: none;
+  color: #000;
+}
+
+nav .center img {
+  height: 75px;
+  width: auto;
+}
+
+nav .right .icons {
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+/* === CONTAINER === */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+/* === Contador Nome e Comentário === */
+small {
+  display: block;
+  text-align: right;
+  color: #555;
+  margin-top: 4px;
+  font-size: 0.85em;
+}
+
+/* === CAIXAS (FORM E COMENTÁRIO) === */
+.form-container, .news-box {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  width: 500px;
+  position: relative;
+  border: none;
+  
+  
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.1),
+              4px 0 10px rgba(0,0,0,0.1),
+              -4px 0 10px rgba(0,0,0,0.1);
+}
+
+
+.form-container::after,
+.news-box::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 7px;
+  width: 100%;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background: linear-gradient(
+    27deg,
+  #b50909 0%, #b50909 33%,
+  #f9d923 33%, #f9d923 66%,
+  #16c172 66%, #16c172 100%
+  );
+}
+
+/* === TÍTULOS === */
+h1 {
+  text-align: center;
+  color: #b50909;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #b50909;
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+
+/* === DESCRIÇÃO === */
+.form-container p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* === LINHA ARCO-ÍRIS === */
+.rainbow-line {
+  height: 3px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  margin: 15px 0;
+  border-radius: 2px;
+}
+
+/* === CAMPOS DE ENTRADA === */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #b50909;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* === BOTÃO === */
+button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #b50909;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 160px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d30303;
+  transform: scale(1.05);
+}
