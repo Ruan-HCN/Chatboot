@@ -170,3 +170,112 @@
 2025-05-28 11:24:27,568 [INFO] Coment�rio salvo com sucesso: dados\Lucas_20250528_112427.json
 2025-05-28 11:24:27,569 [INFO] Mensagem processada com sucesso para Lucas
 2025-05-28 11:24:27,570 [INFO] 127.0.0.1 - - [28/May/2025 11:24:27] "POST /mensagem HTTP/1.1" 200 -
+2025-05-29 18:24:11,594 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-29 18:24:11,595 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-29 18:24:11,615 [INFO]  * Restarting with watchdog (windowsapi)
+2025-05-29 18:24:12,015 [WARNING]  * Debugger is active!
+2025-05-29 18:24:12,019 [INFO]  * Debugger PIN: 597-966-657
+2025-05-29 18:24:16,762 [INFO] Pagina inicial acessada.
+2025-05-29 18:24:16,768 [INFO] 127.0.0.1 - - [29/May/2025 18:24:16] "GET / HTTP/1.1" 200 -
+2025-05-29 18:24:17,824 [INFO] Arquivo estático acessado: css/style.css
+2025-05-29 18:24:17,825 [INFO] Arquivo estático acessado: js/script.js
+2025-05-29 18:24:17,826 [INFO] Arquivo estático acessado: img/logo.svg
+2025-05-29 18:24:17,934 [INFO] 127.0.0.1 - - [29/May/2025 18:24:17] "GET /css/style.css HTTP/1.1" 200 -
+2025-05-29 18:24:17,948 [INFO] 127.0.0.1 - - [29/May/2025 18:24:17] "GET /img/logo.svg HTTP/1.1" 200 -
+2025-05-29 18:24:17,965 [INFO] 127.0.0.1 - - [29/May/2025 18:24:17] "GET /js/script.js HTTP/1.1" 200 -
+2025-05-29 18:24:32,549 [INFO] Palavrões carregados com sucesso.
+2025-05-29 18:24:32,564 [INFO] Comentário salvo com sucesso: C:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\instance\dados\Izaaa_20250529_182432.json
+2025-05-29 18:24:32,565 [INFO] Mensagem processada com sucesso para Izaaa
+2025-05-29 18:24:32,566 [INFO] 127.0.0.1 - - [29/May/2025 18:24:32] "POST /mensagem HTTP/1.1" 200 -
+2025-05-29 18:52:47,113 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-29 18:52:47,113 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-29 18:52:47,131 [INFO]  * Restarting with watchdog (windowsapi)
+2025-05-29 18:52:47,564 [WARNING]  * Debugger is active!
+2025-05-29 18:52:47,569 [INFO]  * Debugger PIN: 597-966-657
+2025-05-29 18:52:51,287 [INFO] Pagina inicial acessada.
+2025-05-29 18:52:51,319 [INFO] 127.0.0.1 - - [29/May/2025 18:52:51] "GET / HTTP/1.1" 200 -
+2025-05-29 18:52:51,336 [INFO] Arquivo estático acessado: css/style.css
+2025-05-29 18:52:51,337 [INFO] Arquivo estático acessado: img/logo.svg
+2025-05-29 18:52:51,338 [INFO] Arquivo estático acessado: js/script.js
+2025-05-29 18:52:51,445 [INFO] 127.0.0.1 - - [29/May/2025 18:52:51] "[36mGET /css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 18:52:51,446 [INFO] 127.0.0.1 - - [29/May/2025 18:52:51] "[36mGET /img/logo.svg HTTP/1.1[0m" 304 -
+2025-05-29 18:52:51,461 [INFO] 127.0.0.1 - - [29/May/2025 18:52:51] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-05-29 18:52:51,512 [INFO] Arquivo estático acessado: img/logo.svg
+2025-05-29 18:52:51,514 [INFO] 127.0.0.1 - - [29/May/2025 18:52:51] "[36mGET /img/logo.svg HTTP/1.1[0m" 304 -
+2025-05-29 18:58:50,796 [INFO] Palavrões carregados com sucesso.
+2025-05-29 18:58:50,814 [INFO] Comentário salvo com sucesso: C:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\instance\dados\Ruan_20250529_185850.json
+2025-05-29 18:58:50,815 [INFO] Mensagem processada com sucesso para Ruan
+2025-05-29 18:58:50,816 [INFO] 127.0.0.1 - - [29/May/2025 18:58:50] "POST /mensagem HTTP/1.1" 200 -
+2025-06-01 22:36:04,565 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-01 22:36:04,566 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-01 22:36:04,589 [INFO]  * Restarting with watchdog (windowsapi)
+2025-06-01 22:36:04,979 [WARNING]  * Debugger is active!
+2025-06-01 22:36:04,987 [INFO]  * Debugger PIN: 597-966-657
+2025-06-01 22:36:08,407 [INFO] Pagina inicial acessada.
+2025-06-01 22:36:08,429 [INFO] 127.0.0.1 - - [01/Jun/2025 22:36:08] "GET / HTTP/1.1" 200 -
+2025-06-01 22:36:08,452 [INFO] 127.0.0.1 - - [01/Jun/2025 22:36:08] "[33mGET /static/img/edicao.png HTTP/1.1[0m" 404 -
+2025-06-01 22:36:08,463 [INFO] Arquivo estático acessado: js/script.js
+2025-06-01 22:36:08,542 [INFO] 127.0.0.1 - - [01/Jun/2025 22:36:08] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-01 22:36:08,546 [INFO] 127.0.0.1 - - [01/Jun/2025 22:36:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-01 22:36:08,554 [INFO] 127.0.0.1 - - [01/Jun/2025 22:36:08] "GET /static/img/logo.svg HTTP/1.1" 200 -
+2025-06-01 22:37:43,096 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-01 22:37:43,097 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-01 22:37:43,115 [INFO]  * Restarting with watchdog (windowsapi)
+2025-06-01 22:37:43,521 [WARNING]  * Debugger is active!
+2025-06-01 22:37:43,525 [INFO]  * Debugger PIN: 597-966-657
+2025-06-01 22:37:46,912 [INFO] Pagina inicial acessada.
+2025-06-01 22:37:46,919 [INFO] 127.0.0.1 - - [01/Jun/2025 22:37:46] "GET / HTTP/1.1" 200 -
+2025-06-01 22:37:46,955 [INFO] Arquivo estático acessado: js/script.js
+2025-06-01 22:37:47,051 [INFO] 127.0.0.1 - - [01/Jun/2025 22:37:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-01 22:37:47,053 [INFO] 127.0.0.1 - - [01/Jun/2025 22:37:47] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-01 22:37:47,057 [INFO] 127.0.0.1 - - [01/Jun/2025 22:37:47] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-01 22:37:47,064 [INFO] 127.0.0.1 - - [01/Jun/2025 22:37:47] "GET /static/img/edicao.png HTTP/1.1" 200 -
+2025-06-01 22:38:51,770 [INFO] Pagina inicial acessada.
+2025-06-01 22:38:51,784 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:51] "GET / HTTP/1.1" 200 -
+2025-06-01 22:38:51,809 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-01 22:38:51,813 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:51] "[36mGET /static/img/edicao.png HTTP/1.1[0m" 304 -
+2025-06-01 22:38:51,815 [INFO] Arquivo estático acessado: js/script.js
+2025-06-01 22:38:51,816 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:51] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-01 22:38:51,819 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:51] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-01 22:38:51,834 [INFO] Arquivo estático acessado: img/logo.svg
+2025-06-01 22:38:51,835 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:51] "[36mGET /img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-01 22:38:52,511 [INFO] Pagina inicial acessada.
+2025-06-01 22:38:52,512 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "GET / HTTP/1.1" 200 -
+2025-06-01 22:38:52,537 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-01 22:38:52,541 [INFO] Arquivo estático acessado: js/script.js
+2025-06-01 22:38:52,542 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "[36mGET /static/img/edicao.png HTTP/1.1[0m" 304 -
+2025-06-01 22:38:52,543 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-01 22:38:52,544 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-01 22:38:52,558 [INFO] Arquivo estático acessado: img/logo.svg
+2025-06-01 22:38:52,559 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "[36mGET /img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-01 22:38:52,846 [INFO] Pagina inicial acessada.
+2025-06-01 22:38:52,847 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "GET / HTTP/1.1" 200 -
+2025-06-01 22:38:52,868 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-01 22:38:52,870 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "[36mGET /static/img/edicao.png HTTP/1.1[0m" 304 -
+2025-06-01 22:38:52,874 [INFO] Arquivo estático acessado: js/script.js
+2025-06-01 22:38:52,876 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-01 22:38:52,877 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-01 22:38:52,890 [INFO] Arquivo estático acessado: img/logo.svg
+2025-06-01 22:38:52,891 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:52] "[36mGET /img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-01 22:38:53,117 [INFO] Pagina inicial acessada.
+2025-06-01 22:38:53,118 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "GET / HTTP/1.1" 200 -
+2025-06-01 22:38:53,141 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-01 22:38:53,142 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /static/img/edicao.png HTTP/1.1[0m" 304 -
+2025-06-01 22:38:53,143 [INFO] Arquivo estático acessado: js/script.js
+2025-06-01 22:38:53,144 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-01 22:38:53,147 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-01 22:38:53,158 [INFO] Arquivo estático acessado: img/logo.svg
+2025-06-01 22:38:53,158 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-01 22:38:53,815 [INFO] Pagina inicial acessada.
+2025-06-01 22:38:53,815 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "GET / HTTP/1.1" 200 -
+2025-06-01 22:38:53,839 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-01 22:38:53,840 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /static/img/edicao.png HTTP/1.1[0m" 304 -
+2025-06-01 22:38:53,843 [INFO] Arquivo estático acessado: js/script.js
+2025-06-01 22:38:53,845 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-01 22:38:53,846 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-01 22:38:53,859 [INFO] Arquivo estático acessado: img/logo.svg
+2025-06-01 22:38:53,860 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /img/logo.svg HTTP/1.1[0m" 304 -

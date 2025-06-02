@@ -16,16 +16,29 @@ body {
 /* === NAVBAR === */
 nav.navbar {
   background-color: #fff;
-  padding: 10px 20px;
+  padding: 3px 400px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  position: relative;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* Sombra leve abaixo */
+}
+
+nav .left,
+nav .right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 nav .left {
   color: #000;
   font-weight: bold;
+  justify-content: flex-start;
+}
+
+nav .right{
+  justify-content: flex-end;
 }
 
 .left a{
@@ -33,9 +46,32 @@ nav .left {
   color: #000;
 }
 
+nav .center{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 nav .center img {
   height: 75px;
   width: auto;
+}
+
+
+.edition {
+  display: flex;
+  align-items: center; /* para centralizar verticalmente o texto com a imagem */
+  gap: 8px; /* espaçamento entre a imagem e o texto */
+}
+
+.edition img{
+  width: 106px;
+  height: 91px;
+}
+
+.edition:hover{
+  color: #b50909;
+  transition: 0.5s;
 }
 
 nav .right .icons {
