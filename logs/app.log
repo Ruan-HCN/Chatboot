@@ -279,3 +279,45 @@
 2025-06-01 22:38:53,846 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
 2025-06-01 22:38:53,859 [INFO] Arquivo estático acessado: img/logo.svg
 2025-06-01 22:38:53,860 [INFO] 127.0.0.1 - - [01/Jun/2025 22:38:53] "[36mGET /img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-04 10:30:50,338 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-04 10:30:50,338 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-04 10:30:50,341 [INFO]  * Restarting with stat
+2025-06-04 10:30:50,707 [WARNING]  * Debugger is active!
+2025-06-04 10:30:50,714 [INFO]  * Debugger PIN: 110-318-040
+2025-06-04 10:30:53,213 [INFO] Pagina inicial acessada.
+2025-06-04 10:30:53,217 [INFO] 127.0.0.1 - - [04/Jun/2025 10:30:53] "GET / HTTP/1.1" 200 -
+2025-06-04 10:30:53,249 [INFO] Arquivo estático acessado: js/script.js
+2025-06-04 10:30:53,345 [INFO] 127.0.0.1 - - [04/Jun/2025 10:30:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-04 10:30:53,355 [INFO] 127.0.0.1 - - [04/Jun/2025 10:30:53] "GET /static/img/edicao.png HTTP/1.1" 200 -
+2025-06-04 10:30:53,355 [INFO] 127.0.0.1 - - [04/Jun/2025 10:30:53] "GET /static/img/logo.svg HTTP/1.1" 200 -
+2025-06-04 10:30:53,375 [INFO] 127.0.0.1 - - [04/Jun/2025 10:30:53] "GET /js/script.js HTTP/1.1" 200 -
+2025-06-04 10:31:13,701 [INFO] Palavrões carregados com sucesso.
+2025-06-04 10:31:13,738 [INFO] Comentário salvo com sucesso: c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\instance\dados\Lais_20250604_103113.json
+2025-06-04 10:31:13,739 [INFO] Mensagem processada com sucesso para Lais
+2025-06-04 10:31:13,739 [INFO] 127.0.0.1 - - [04/Jun/2025 10:31:13] "POST /mensagem HTTP/1.1" 200 -
+2025-06-04 10:31:39,994 [INFO] Palavrões carregados com sucesso.
+2025-06-04 10:31:39,995 [INFO] Comentário salvo com sucesso: c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\instance\dados\Ruan_20250604_103139.json
+2025-06-04 10:31:39,996 [INFO] Mensagem processada com sucesso para Ruan
+2025-06-04 10:31:39,996 [INFO] 127.0.0.1 - - [04/Jun/2025 10:31:39] "POST /mensagem HTTP/1.1" 200 -
+2025-06-04 10:31:52,161 [INFO] Palavrões carregados com sucesso.
+2025-06-04 10:31:52,162 [INFO] Comentário salvo com sucesso: c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\instance\dados\Ribamar_20250604_103152.json
+2025-06-04 10:31:52,162 [INFO] Mensagem processada com sucesso para Ribamar
+2025-06-04 10:31:52,163 [INFO] 127.0.0.1 - - [04/Jun/2025 10:31:52] "POST /mensagem HTTP/1.1" 200 -
+2025-06-04 10:34:55,940 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-04 10:34:55,940 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-04 10:34:55,943 [INFO]  * Restarting with stat
+2025-06-04 10:34:56,295 [WARNING]  * Debugger is active!
+2025-06-04 10:34:56,299 [INFO]  * Debugger PIN: 110-318-040
+2025-06-04 10:34:58,829 [INFO] Pagina inicial acessada.
+2025-06-04 10:34:58,834 [INFO] 127.0.0.1 - - [04/Jun/2025 10:34:58] "GET / HTTP/1.1" 200 -
+2025-06-04 10:34:58,865 [INFO] Arquivo estático acessado: js/script.js
+2025-06-04 10:34:58,946 [INFO] 127.0.0.1 - - [04/Jun/2025 10:34:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 10:34:58,954 [INFO] 127.0.0.1 - - [04/Jun/2025 10:34:58] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-04 10:34:58,955 [INFO] 127.0.0.1 - - [04/Jun/2025 10:34:58] "[36mGET /static/img/edicao.png HTTP/1.1[0m" 304 -
+2025-06-04 10:34:58,959 [INFO] 127.0.0.1 - - [04/Jun/2025 10:34:58] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-04 10:35:21,054 [INFO] Palavrões carregados com sucesso.
+2025-06-04 10:35:21,092 [INFO] Comentário salvo com sucesso: c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\instance\dados\Ruan Linux_20250604_103521.json
+2025-06-04 10:35:21,092 [INFO] Mensagem processada com sucesso para Ruan Linux
+2025-06-04 10:35:21,093 [INFO] 127.0.0.1 - - [04/Jun/2025 10:35:21] "POST /mensagem HTTP/1.1" 200 -

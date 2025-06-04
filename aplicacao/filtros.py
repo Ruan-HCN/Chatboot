@@ -19,34 +19,63 @@ def carregar_palavroes():
         return []
 
 
+def gerar_regex_palavrao(palavrao):
+    mapa = {
+        'a': '[aáàâã4@]',
+        'i': '[iíìî1!]',
+        'e': '[eéèê3]',
+        'o': '[oóòôõ0]',
+        'u': '[uúùû]',
+        's': '[s$5]',
+        'c': '[cç]',
+        'd': '[d]',
+        'f': '[f]',
+        'p': '[p]',
+        't': '[t]',
+        'l': '[l]',
+        'h': '[h]',
+        'm': '[m]',
+        'r': '[r]',
+        'n': '[n]',
+        'b': '[b]',
+        'g': '[g]',
+        'j': '[j]',
+        'q': '[q]',
+        'v': '[v]',
+        'w': '[w]',
+        'x': '[x]',
+        'y': '[y]',
+        'z': '[z]'
+    }
+
+    # Separa palavrões compostos em palavras
+    partes = palavrao.split()
+
+    regex_partes = []
+    for parte in partes:
+        regex_parte = ''
+        for letra in parte:
+            regex_parte += mapa.get(letra.lower(), letra)
+        regex_partes.append(regex_parte)
+
+    # Permite qualquer caractere não alfanumérico ou espaço como separador entre palavras
+    separador = r'[\W_]*'
+
+    regex_final = separador.join(regex_partes)
+
+    # Define limites nos extremos
+    regex_final = r'(?<![a-zA-Z0-9@4$!ç])' + regex_final + r'(?![a-zA-Z0-9@4$!ç])'
+
+    return regex_final
+
 # Função para censurar mensagens com leetspeak
 def censurar_mensagem(mensagem):
     palavroes = carregar_palavroes()
     mensagem_censurada = mensagem
 
     for palavrao in palavroes:
-        # Monta regex permitindo substituições comuns (leetspeak)
-        regex = ''
-        for letra in palavrao:
-            if letra == 'a':
-                regex += '[aáàâã4@]'
-            elif letra == 'i':
-                regex += '[iíìî1!]'
-            elif letra == 'e':
-                regex += '[eéèê3]'
-            elif letra == 'o':
-                regex += '[oóòôõ0]'
-            elif letra == 'u':
-                regex += '[uúùû]'
-            elif letra == 's':
-                regex += '[s$]'
-            else:
-                regex += letra
+        regex = gerar_regex_palavrao(palavrao)
 
-        # Considera a palavra inteira (delimitada)
-        regex = r'\b' + regex + r'\b'
-
-        # Substitui por asteriscos mantendo o tamanho da palavra
         mensagem_censurada = re.sub(
             regex,
             lambda m: '*' * len(m.group()),
