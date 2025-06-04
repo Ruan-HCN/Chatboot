@@ -321,3 +321,206 @@
 2025-06-04 10:35:21,092 [INFO] Comentário salvo com sucesso: c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\instance\dados\Ruan Linux_20250604_103521.json
 2025-06-04 10:35:21,092 [INFO] Mensagem processada com sucesso para Ruan Linux
 2025-06-04 10:35:21,093 [INFO] 127.0.0.1 - - [04/Jun/2025 10:35:21] "POST /mensagem HTTP/1.1" 200 -
+2025-06-04 10:46:21,306 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-04 10:46:21,306 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-04 10:46:21,309 [INFO]  * Restarting with stat
+2025-06-04 10:46:21,636 [WARNING]  * Debugger is active!
+2025-06-04 10:46:21,641 [INFO]  * Debugger PIN: 110-318-040
+2025-06-04 10:46:24,803 [INFO] Pagina inicial acessada.
+2025-06-04 10:46:24,809 [INFO] 127.0.0.1 - - [04/Jun/2025 10:46:24] "GET / HTTP/1.1" 200 -
+2025-06-04 10:46:24,843 [INFO] Arquivo estático acessado: js/script.js
+2025-06-04 10:46:24,938 [INFO] 127.0.0.1 - - [04/Jun/2025 10:46:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 10:46:24,943 [INFO] 127.0.0.1 - - [04/Jun/2025 10:46:24] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-04 10:46:24,944 [INFO] 127.0.0.1 - - [04/Jun/2025 10:46:24] "[36mGET /static/img/edicao.png HTTP/1.1[0m" 304 -
+2025-06-04 10:46:24,946 [INFO] 127.0.0.1 - - [04/Jun/2025 10:46:24] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-04 10:46:44,683 [INFO] Palavrões carregados com sucesso.
+2025-06-04 10:46:44,684 [ERROR] Erro no processamento da mensagem: unbalanced parenthesis at position 129
+Traceback (most recent call last):
+  File "c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\aplicacao\routes.py", line 31, in processar_mensagem
+    mensagem_censurada = censurar_mensagem(mensagem)
+  File "c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\aplicacao\filtros.py", line 81, in censurar_mensagem
+    mensagem_censurada = re.sub(
+        regex,
+    ...<2 lines>...
+        flags=re.IGNORECASE
+    )
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_compiler.py", line 748, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 985, in parse
+    raise source.error("unbalanced parenthesis")
+re.PatternError: unbalanced parenthesis at position 129
+2025-06-04 10:46:44,727 [INFO] 127.0.0.1 - - [04/Jun/2025 10:46:44] "[35m[1mPOST /mensagem HTTP/1.1[0m" 500 -
+2025-06-04 10:47:28,865 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-04 10:47:28,865 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-04 10:47:28,866 [INFO]  * Restarting with stat
+2025-06-04 10:47:29,218 [WARNING]  * Debugger is active!
+2025-06-04 10:47:29,224 [INFO]  * Debugger PIN: 110-318-040
+2025-06-04 10:47:31,548 [INFO] Pagina inicial acessada.
+2025-06-04 10:47:31,553 [INFO] 127.0.0.1 - - [04/Jun/2025 10:47:31] "GET / HTTP/1.1" 200 -
+2025-06-04 10:47:31,584 [INFO] Arquivo estático acessado: js/script.js
+2025-06-04 10:47:31,676 [INFO] 127.0.0.1 - - [04/Jun/2025 10:47:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 10:47:31,681 [INFO] 127.0.0.1 - - [04/Jun/2025 10:47:31] "[36mGET /static/img/edicao.png HTTP/1.1[0m" 304 -
+2025-06-04 10:47:31,682 [INFO] 127.0.0.1 - - [04/Jun/2025 10:47:31] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-04 10:47:31,685 [INFO] 127.0.0.1 - - [04/Jun/2025 10:47:31] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-04 10:47:46,491 [INFO] Palavrões carregados com sucesso.
+2025-06-04 10:47:46,491 [ERROR] Erro no processamento da mensagem: unbalanced parenthesis at position 129
+Traceback (most recent call last):
+  File "c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\aplicacao\routes.py", line 31, in processar_mensagem
+    mensagem_censurada = censurar_mensagem(mensagem)
+  File "c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\aplicacao\filtros.py", line 85, in censurar_mensagem
+    mensagem_censurada = re.sub(
+        regex,
+    ...<2 lines>...
+        flags=re.IGNORECASE
+    )
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_compiler.py", line 748, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 985, in parse
+    raise source.error("unbalanced parenthesis")
+re.PatternError: unbalanced parenthesis at position 129
+2025-06-04 10:47:46,495 [INFO] 127.0.0.1 - - [04/Jun/2025 10:47:46] "[35m[1mPOST /mensagem HTTP/1.1[0m" 500 -
+2025-06-04 10:49:59,607 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-04 10:49:59,607 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-04 10:49:59,609 [INFO]  * Restarting with stat
+2025-06-04 10:49:59,972 [WARNING]  * Debugger is active!
+2025-06-04 10:49:59,976 [INFO]  * Debugger PIN: 110-318-040
+2025-06-04 10:50:02,516 [INFO] Pagina inicial acessada.
+2025-06-04 10:50:02,521 [INFO] 127.0.0.1 - - [04/Jun/2025 10:50:02] "GET / HTTP/1.1" 200 -
+2025-06-04 10:50:02,556 [INFO] Arquivo estático acessado: js/script.js
+2025-06-04 10:50:02,644 [INFO] 127.0.0.1 - - [04/Jun/2025 10:50:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 10:50:02,647 [INFO] 127.0.0.1 - - [04/Jun/2025 10:50:02] "[36mGET /static/img/edicao.png HTTP/1.1[0m" 304 -
+2025-06-04 10:50:02,650 [INFO] 127.0.0.1 - - [04/Jun/2025 10:50:02] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-04 10:50:02,653 [INFO] 127.0.0.1 - - [04/Jun/2025 10:50:02] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-04 10:50:17,706 [INFO] Palavrões carregados com sucesso.
+2025-06-04 10:50:17,707 [ERROR] Erro no processamento da mensagem: unterminated character set at position 85
+Traceback (most recent call last):
+  File "c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\aplicacao\routes.py", line 31, in processar_mensagem
+    mensagem_censurada = censurar_mensagem(mensagem)
+  File "c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\aplicacao\filtros.py", line 63, in censurar_mensagem
+    mensagem_censurada = re.sub(
+        regex,
+    ...<2 lines>...
+        flags=re.IGNORECASE
+    )
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_compiler.py", line 748, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 567, in _parse
+    raise source.error("unterminated character set",
+                       source.tell() - here)
+re.PatternError: unterminated character set at position 85
+2025-06-04 10:50:17,712 [INFO] 127.0.0.1 - - [04/Jun/2025 10:50:17] "[35m[1mPOST /mensagem HTTP/1.1[0m" 500 -
+2025-06-04 10:53:11,373 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-04 10:53:11,373 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-04 10:53:11,375 [INFO]  * Restarting with stat
+2025-06-04 10:53:11,723 [WARNING]  * Debugger is active!
+2025-06-04 10:53:11,727 [INFO]  * Debugger PIN: 110-318-040
+2025-06-04 10:53:13,799 [INFO] Pagina inicial acessada.
+2025-06-04 10:53:13,803 [INFO] 127.0.0.1 - - [04/Jun/2025 10:53:13] "GET / HTTP/1.1" 200 -
+2025-06-04 10:53:13,835 [INFO] Arquivo estático acessado: js/script.js
+2025-06-04 10:53:13,923 [INFO] 127.0.0.1 - - [04/Jun/2025 10:53:13] "[36mGET /static/img/edicao.png HTTP/1.1[0m" 304 -
+2025-06-04 10:53:13,924 [INFO] 127.0.0.1 - - [04/Jun/2025 10:53:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 10:53:13,928 [INFO] 127.0.0.1 - - [04/Jun/2025 10:53:13] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-04 10:53:13,931 [INFO] 127.0.0.1 - - [04/Jun/2025 10:53:13] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-04 10:53:31,660 [INFO] Palavrões carregados com sucesso.
+2025-06-04 10:53:31,660 [ERROR] Erro no processamento da mensagem: unterminated character set at position 91
+Traceback (most recent call last):
+  File "c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\aplicacao\routes.py", line 31, in processar_mensagem
+    mensagem_censurada = censurar_mensagem(mensagem)
+  File "c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\aplicacao\filtros.py", line 81, in censurar_mensagem
+    mensagem_censurada = re.sub(
+        regex,
+    ...<2 lines>...
+        flags=re.IGNORECASE
+    )
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_compiler.py", line 748, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 567, in _parse
+    raise source.error("unterminated character set",
+                       source.tell() - here)
+re.PatternError: unterminated character set at position 91
+2025-06-04 10:53:31,666 [INFO] 127.0.0.1 - - [04/Jun/2025 10:53:31] "[35m[1mPOST /mensagem HTTP/1.1[0m" 500 -
+2025-06-04 10:53:37,270 [INFO] Palavrões carregados com sucesso.
+2025-06-04 10:53:37,271 [ERROR] Erro no processamento da mensagem: unterminated character set at position 91
+Traceback (most recent call last):
+  File "c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\aplicacao\routes.py", line 31, in processar_mensagem
+    mensagem_censurada = censurar_mensagem(mensagem)
+  File "c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\aplicacao\filtros.py", line 81, in censurar_mensagem
+    mensagem_censurada = re.sub(
+        regex,
+    ...<2 lines>...
+        flags=re.IGNORECASE
+    )
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 208, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_compiler.py", line 748, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ruanh\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 567, in _parse
+    raise source.error("unterminated character set",
+                       source.tell() - here)
+re.PatternError: unterminated character set at position 91
+2025-06-04 10:53:37,274 [INFO] 127.0.0.1 - - [04/Jun/2025 10:53:37] "[35m[1mPOST /mensagem HTTP/1.1[0m" 500 -
+2025-06-04 10:57:50,852 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-04 10:57:50,852 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-04 10:57:50,853 [INFO]  * Restarting with stat
+2025-06-04 10:57:51,211 [WARNING]  * Debugger is active!
+2025-06-04 10:57:51,216 [INFO]  * Debugger PIN: 110-318-040
+2025-06-04 10:57:53,434 [INFO] Pagina inicial acessada.
+2025-06-04 10:57:53,439 [INFO] 127.0.0.1 - - [04/Jun/2025 10:57:53] "GET / HTTP/1.1" 200 -
+2025-06-04 10:57:53,470 [INFO] Arquivo estático acessado: js/script.js
+2025-06-04 10:57:53,561 [INFO] 127.0.0.1 - - [04/Jun/2025 10:57:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 10:57:53,563 [INFO] 127.0.0.1 - - [04/Jun/2025 10:57:53] "[36mGET /static/img/edicao.png HTTP/1.1[0m" 304 -
+2025-06-04 10:57:53,565 [INFO] 127.0.0.1 - - [04/Jun/2025 10:57:53] "[36mGET /static/img/logo.svg HTTP/1.1[0m" 304 -
+2025-06-04 10:57:53,568 [INFO] 127.0.0.1 - - [04/Jun/2025 10:57:53] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+2025-06-04 10:58:06,474 [INFO] Palavrões carregados com sucesso.
+2025-06-04 10:58:06,499 [INFO] Comentário salvo com sucesso: c:\Users\ruanh\OneDrive\Documentos\Chatboot-JC-residencia\instance\dados\Ribas_20250604_105806.json
+2025-06-04 10:58:06,499 [INFO] Mensagem processada com sucesso para Ribas
+2025-06-04 10:58:06,500 [INFO] 127.0.0.1 - - [04/Jun/2025 10:58:06] "POST /mensagem HTTP/1.1" 200 -

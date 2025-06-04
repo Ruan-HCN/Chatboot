@@ -48,23 +48,28 @@ def gerar_regex_palavrao(palavrao):
         'z': '[z]'
     }
 
-    # Separa palavrões compostos em palavras
-    partes = palavrao.split()
+    partes = palavrao.strip().split()
 
     regex_partes = []
     for parte in partes:
         regex_parte = ''
-        for letra in parte:
-            regex_parte += mapa.get(letra.lower(), letra)
+        for i, letra in enumerate(parte):
+            if letra.lower() in mapa:
+                regex_parte += mapa[letra.lower()]
+            else:
+                regex_parte += re.escape(letra)
+
+            # Adiciona caracteres não alfanuméricos apenas se não for o último caractere da parte
+            if i < len(parte) - 1:
+                regex_parte += r'[\W_]*'
         regex_partes.append(regex_parte)
 
-    # Permite qualquer caractere não alfanumérico ou espaço como separador entre palavras
-    separador = r'[\W_]*'
+    separador = r'[\W_]+' # Alterado para + para garantir pelo menos um separador não alfanumérico
 
     regex_final = separador.join(regex_partes)
 
-    # Define limites nos extremos
-    regex_final = r'(?<![a-zA-Z0-9@4$!ç])' + regex_final + r'(?![a-zA-Z0-9@4$!ç])'
+    # Limites de palavra
+    regex_final = r'(?<!\w)' + regex_final + r'(?!\w)'
 
     return regex_final
 
